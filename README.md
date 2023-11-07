@@ -88,7 +88,7 @@ $\ket{\Psi_0} = \hat{W}_θ \ket{0}^{\otimes n}$
 </p>
 
 
-then ,due the expected value of the hamiltonian in the groun states is less or equal to the expected value for an  arbitrary state, for  the ground state we must  find  the parameters of the operator     $\hat{W}_θ$    that minimize the expected value for the Hamiltonian  $\hat{H}$  in    $\hat{W}_θ$ $\ket{0}^{\otimes n}$  , i,e   $\braket{H}$ $_{\Psi(θ)}$
+then ,due the expected value of the hamiltonian in the groun states is less or equal to the expected value for an  arbitrary state, for  the ground state we must  find  the parameters of the operator     $\hat{W}_θ$    that minimize the expected value for the Hamiltonian  $\hat{H}$  in    $\hat{W}(θ) \ket{0}^{\otimes n}$  , i,e   $\braket{H}$ $_{\Psi(θ)}$
 
 
 
