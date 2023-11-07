@@ -1,7 +1,7 @@
 ## Physic context of the problem
 
 
-Let $\hat{H}$ be a hamiltonian in a  n-dimensional quantum Hilbert space $\mathcal{H}$, then for its ground state:
+Let $\hat{H}$ be a hamiltonian in a quantum Hilbert space $\mathcal{H}$, then for its ground state:
 
 
 <p align="center">
