@@ -54,45 +54,47 @@ To test different Hamiltonians, simply modify the line of code:
 Let $\hat{H}$ be a hamiltonian in a quantum Hilbert space $\mathcal{H}$ n-dimensional, then for its ground state:
 
 
-\begin{center}
-$\hat{H} \ket{\Psi_0} = E_0 \ket{\Psi _0}$
-\end{center}
+<p align="center">
+	$\hat{H} \ket{\Psi_0} = E_0 \ket{\Psi _0}$
+</p>
 with $E_0$ its eigenvalue, then the expected value:
 
 
-\begin{center}
+<p align="center">
 $	
 \braket{H}_{\Psi_0} = \bra {\Psi _0} \hat{H} \ket{\Psi_0} =E_0\braket{\Psi |  \Psi}   = E_0
 $
 \end{center}
-
+</p>
 
 
 For an arbitrary $\ket{\Psi} \in \mathcal{H}$, it can be showed:
 
 
-\begin{center}
+<p align="center">
 $\bra{\Psi _0} \hat{H} \ket{\Psi_0} \leq \bra{\Psi} \hat{H} \ket{\Psi} \Rightarrow \braket{H}_{\Psi_0} \leq   \braket{H}_{\Psi}$
 \end{center}
-
+</p>
 
 Given $\hat{H}$, if we want to obtain the ground state we can propouse a parametrized state (an ansatz):
 
 
-\begin{center}
+<p align="center">
 	$
 	\ket{\Psi (\theta)} = \hat{W}_\theta \ket{0}^{\otimes n}
 	$
-\end{center}
+</p>
 
 
 and so we can attempt to find the parameters that characterize the ground state:
 
 
-\begin{center}
+<p align="center">
 $\ket{\Psi_0} = \hat{W}_\theta \ket{0}^{\otimes n}
 $
-\end{center}
+</p>
+
+
 then ,due the fact that $\braket{H}_{\Psi_0}  \leq \braket{H}_{\Psi}$, for  the ground state we must  find  the parameters of the operator  $\hat{W}_\theta$ that minimize the expected value for the Hamiltonian $\hat{H}$ in $\hat{W}_\theta \ket{0}^{\otimes n}$, i,e $\braket{H}_{\Psi (\theta)}$
 
 
