@@ -88,8 +88,8 @@ $\ket{\Psi_0} = \hat{W}_\theta \ket{0}^{\otimes n}$
 </p>
 
 
-then ,due the fact that  $\braket{H}_{\Psi_0}\leq\braket{H}_{\Psi}$ , for  the ground state we must  find  the parameters of the operator   $\hat{W}_\theta$  that minimize the expected value for the Hamiltonian  $\hat{H}$  in 
-  $\hat{W}_\theta \ket{0}^{\otimes n}$  , i,e   $\braket{H}_{\Psi (\theta)} $
+then ,due the fact that  $$\braket{H}_{\Psi_0}\leq\braket{H}_{\Psi}$$ , for  the ground state we must  find  the parameters of the operator   $$\hat{W}_\theta$$  that minimize the expected value for the Hamiltonian  $$\hat{H}$$  in 
+  $$\hat{W}_\theta\ket{0}^{\otimes n}$$  , i,e   $$\braket{H}_{\Psi (\theta)}$$
 
 
 
