@@ -42,7 +42,7 @@ then ,due the expected value of the hamiltonian in the groun states is less or e
 
 
 
-We can encode our minimization problem of a cost function, the expected value, with a Variational Quantum Algorithm and  use tools like Pennylane! 
+We can encode our minimization problem of a cost function, the expected value, with a Variational Quantum Algorithm and  use tools like PennyLane! 
 
 
 ## Authors
