@@ -72,11 +72,11 @@ For an arbitrary $\ket{\Psi} \in \mathcal{H}$, it can be showed:
 $\bra{\Psi _0} \hat{H} \ket{\Psi_0} \leq \bra{\Psi} \hat{H} \ket{\Psi} \Rightarrow \braket{H}_{\Psi_0} \leq   \braket{H}_{\Psi}$
 </p>
 
-Given $$\hat{H}$$, if we want to obtain the ground state we can propouse a parametrized state (an ansatz):
+Given $\hat{H}$, if we want to obtain the ground state we can propouse a parametrized state (an ansatz):
 
 
 <p align="center">
-	$\ket{\Psi (\theta)} = \hat{W}_\theta \ket{0}^{\otimes n}$
+	$ \ket{\Psi (\theta)} = \hat{W}_\theta \ket{0}^{\otimes n}$
 </p>
 
 
@@ -84,11 +84,11 @@ and so we can attempt to find the parameters that characterize the ground state:
 
 
 <p align="center">
-$\ket{\Psi_0} = \hat{W}_\theta \ket{0}^{\otimes n}$
+$ \ket{\Psi_0} = \hat{W}_\theta \ket{0}^{\otimes n} $
 </p>
 
 
-then ,due the expected value of the hamiltonian in the groun states is less or equal to the expected value for an  arbitrary state, for  the ground state we must  find  the parameters of the operator     $$\hat{W}_\theta$$    that minimize the expected value for the Hamiltonian  $$\hat{H}$$  in    $$\hat{W}_\theta\ket{0}^{\otimes n}$$  , i,e   $$\braket{H}_{\Psi (\theta)}$$
+then ,due the expected value of the hamiltonian in the groun states is less or equal to the expected value for an  arbitrary state, for  the ground state we must  find  the parameters of the operator     $$\hat{W}_\theta$$    that minimize the expected value for the Hamiltonian  $ \hat{H} $  in    $ \hat{W}_\theta\ket{0}^{\otimes n} $  , i,e   $ \braket{H}_{\Psi (\theta)} $
 
 
 
