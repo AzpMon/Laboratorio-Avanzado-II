@@ -48,36 +48,55 @@ To test different Hamiltonians, simply modify the line of code:
 ```
 
 
-#A few of theory
+##A few of theory
+
+
 Let $\hat{H}$ be a hamiltonian in a quantum Hilbert space $\mathcal{H}$ n-dimensional, then for its ground state:
+
+
 \begin{center}
 $\hat{H} \ket{\Psi_0} = E_0 \ket{\Psi _0}$
 \end{center}
 with $E_0$ its eigenvalue, then the expected value:
+
+
 \begin{center}
 $	
 \braket{H}_{\Psi_0} = \bra {\Psi _0} \hat{H} \ket{\Psi_0} =E_0\braket{\Psi |  \Psi}   = E_0
 $
 \end{center}
+
+
+
 For an arbitrary $\ket{\Psi} \in \mathcal{H}$, it can be showed:
+
+
 \begin{center}
-$
-\bra{\Psi _0} \hat{H} \ket{\Psi_0} \leq \bra{\Psi} \hat{H} \ket{\Psi} \Rightarrow \braket{H}_{\Psi_0} \leq   \braket{H}_{\Psi}
-$
+$\bra{\Psi _0} \hat{H} \ket{\Psi_0} \leq \bra{\Psi} \hat{H} \ket{\Psi} \Rightarrow \braket{H}_{\Psi_0} \leq   \braket{H}_{\Psi}$
 \end{center}
+
+
 Given $\hat{H}$, if we want to obtain the ground state we can propouse a parametrized state (an ansatz):
+
+
 \begin{center}
 	$
 	\ket{\Psi (\theta)} = \hat{W}_\theta \ket{0}^{\otimes n}
 	$
 \end{center}
+
+
 and so we can attempt to find the parameters that characterize the ground state:
+
+
 \begin{center}
 $\ket{\Psi_0} = \hat{W}_\theta \ket{0}^{\otimes n}
 $
 \end{center}
 then ,due the fact that $\braket{H}_{\Psi_0}  \leq \braket{H}_{\Psi}$, for  the ground state we must  find  the parameters of the operator  $\hat{W}_\theta$ that minimize the expected value for the Hamiltonian $\hat{H}$ in $\hat{W}_\theta \ket{0}^{\otimes n}$, i,e $\braket{H}_{\Psi (\theta)}$
-\\
+
+
+
 We can encode our minimization problem of a cost function, the expected value, with a Variational Quantum Algorithm and  use tools like Pennylane! 
 
 Pennylane examples:
