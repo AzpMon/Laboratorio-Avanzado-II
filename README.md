@@ -48,7 +48,7 @@ To test different Hamiltonians, simply modify the line of code:
 ```
 
 
-##A few of theory
+## Physic context of the problem
 
 
 Let $\hat{H}$ be a hamiltonian in a quantum Hilbert space $\mathcal{H}$ n-dimensional, then for its ground state:
@@ -88,8 +88,7 @@ $\ket{\Psi_0} = \hat{W}_\theta \ket{0}^{\otimes n}$
 </p>
 
 
-then ,due the fact that  $$\braket{H}_{\Psi_0}\leq\braket{H}_{\Psi}$$ , for  the ground state we must  find  the parameters of the operator   $$\hat{W}_\theta$$  that minimize the expected value for the Hamiltonian  $$\hat{H}$$  in 
-  $$\hat{W}_\theta\ket{0}^{\otimes n}$$  , i,e   $$\braket{H}_{\Psi (\theta)}$$
+then ,due the fact that  $$\braket{H}_{\Psi_0}$ ≤  $$\braket{H}_{\Psi}$$ , for  the ground state we must  find  the parameters of the operator     $$\hat{W}_\theta$$    that minimize the expected value for the Hamiltonian  $$\hat{H}$$  in    $$\hat{W}_\theta\ket{0}^{\otimes n}$$  , i,e   $$\braket{H}_{\Psi (\theta)}$$
 
 
 
